@@ -1,0 +1,10 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "expo-wechat": ["../src/index"],
+      "expo-wechat/*": ["../src/*"]
+    }
+  }
+}
